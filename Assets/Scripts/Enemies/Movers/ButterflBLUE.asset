@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f0e035660afc249aa8fe64561dc845, type: 3}
+  m_Name: ButterflBLUE
+  m_EditorClassIdentifier: 
+  baseSpeed: 26
+  attackSpeed: 1
+  firstHitCooldown: 0.1
+  damage: 1
+  hp: 1
+  scoreValue: 3
+  flies: 1
+  pushable: 1
+  costPerTypeIns:
+  - key: S
+    item: 4
+  - key: G
+    item: 5
+  - key: D
+    item: 6.5
+  - key: L
+    item: 4
+  - key: P
+    item: 6
+  - key: B
+    item: 5.5
+  - key: X
+    item: -1
+  - key: H
+    item: 6
+  - key: TS
+    item: 5
+  - key: TD
+    item: 5.5
+  additiveDecos:
+  - key: FLOWER
+    item: -2
+  - key: DBUSH
+    item: 0.5

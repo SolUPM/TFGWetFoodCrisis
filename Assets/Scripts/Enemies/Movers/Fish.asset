@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f0e035660afc249aa8fe64561dc845, type: 3}
+  m_Name: Fish
+  m_EditorClassIdentifier: 
+  baseSpeed: 15
+  attackSpeed: 1
+  firstHitCooldown: 0.25
+  damage: 2
+  hp: 2
+  flies: 0
+  pushable: 1
+  costPerTypeIns:
+  - key: S
+    item: 4
+  - key: G
+    item: 5.5
+  - key: D
+    item: 6
+  - key: L
+    item: 1
+  - key: P
+    item: 4
+  - key: B
+    item: -1
+  - key: X
+    item: -1
+  - key: H
+    item: 3
+  - key: TS
+    item: 4.5
+  - key: TD
+    item: 5.75
+  additiveDecos:
+  - key: STUMP
+    item: -3.4028235e+38
+  - key: BUSH
+    item: 2.5
+  - key: SUMP
+    item: 0.5
+  - key: DBUSH
+    item: 3
+  - key: ROCK
+    item: -3.402823e+38

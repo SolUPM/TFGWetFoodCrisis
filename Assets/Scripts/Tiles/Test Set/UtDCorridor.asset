@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: UtDCorridor
+  m_EditorClassIdentifier: 
+  weight: 4
+  sprite: {fileID: 21300000, guid: c9092047717847a41a5aa67d0ad8e581, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000, guid: b3ad4d4e7701edb4cb4bc539c46b2696, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: e329a491e139368418cae57e11a77ad9, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000, guid: 77d914f6556eff14793a90227fddde34, type: 2}
+  - {fileID: 11400000, guid: b3ad4d4e7701edb4cb4bc539c46b2696, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 54c229c6333e57a49a47bed1452f6d1c, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000, guid: ff501a056961ce744a7fcddcd48d3ea9, type: 2}
+  - {fileID: 11400000, guid: 54c229c6333e57a49a47bed1452f6d1c, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: e329a491e139368418cae57e11a77ad9, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000, guid: 77d914f6556eff14793a90227fddde34, type: 2}
+  - {fileID: 11400000, guid: ff501a056961ce744a7fcddcd48d3ea9, type: 2}
+  - {fileID: 11400000}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: GrassDesert UR
+  m_EditorClassIdentifier: 
+  tID: G
+  weight: 5
+  minTemp: 0.63
+  maxTemp: 0.73
+  sprites:
+  - {fileID: 1981746712, guid: 7d974c7ad1b572b49b3d6b8bb8f6b801, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000, guid: aec74b44f9104ee489fda576684b427b, type: 2}
+  - {fileID: 11400000, guid: 8217a8c2b93f8544fb6819700f73bca9, type: 2}
+  - {fileID: 11400000, guid: 1ad4bf04b6d0da643afa6f30cafc1b21, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000, guid: d354e1570b681ee4d9dc353020fd7b2e, type: 2}
+  - {fileID: 11400000, guid: 5aeffe3dbfd1c044d9e42baa6d4360aa, type: 2}
+  - {fileID: 11400000, guid: aec74b44f9104ee489fda576684b427b, type: 2}
+  - {fileID: 11400000, guid: 919e76c9814ab7a478018b4891a25efa, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000, guid: 5aeffe3dbfd1c044d9e42baa6d4360aa, type: 2}
+  - {fileID: 11400000, guid: 1b7f9cf0c8a8dcc4cad3412a918bd843, type: 2}
+  - {fileID: 11400000, guid: 0a9a5cf79ea2b5e47b0ebc24d257e6bc, type: 2}
+  - {fileID: 11400000, guid: 919e76c9814ab7a478018b4891a25efa, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000, guid: 1ad4bf04b6d0da643afa6f30cafc1b21, type: 2}
+  - {fileID: 11400000, guid: 614ae8bb5330fd7418523b3ab690bff4, type: 2}
+  - {fileID: 11400000, guid: 0a9a5cf79ea2b5e47b0ebc24d257e6bc, type: 2}

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MovingUnit">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAiAAAABFAAAAAAAAAAUAAgABgAAAAAIE=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Movers\MovingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyProjectile">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQACCAhAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="owner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnemyScript">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAwAAZACCAIAEgAABAAIAAAACBAgCAAABADgBAABg=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemyScript.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type" />
+      <Field Name="obj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LarvaScript">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAACAABAAAAAAAQAAAAAAAACAAAACAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\LarvaScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkullScript">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\SkullScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawner">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="EnemySpawner.WaveChange" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\EnemySpawner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>kABQEAAQAAIEAAAAQAgACABAACQCAAIQAAAQFIAQAAQ=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpawner.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dayNight" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TimeManager" Collapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgUIAAAwACAAAAAAAAgAAAAAAEAAAAAEQgCAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Time\TimeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefendObject" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAiAAAAAgCABAAAAAABCAIAAIAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DefendObject\DefendObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

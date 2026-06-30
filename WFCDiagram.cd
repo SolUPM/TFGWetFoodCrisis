@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WFCManager">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="WFCManager.CollapseSnapshot" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\WFC\WFCManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACIEAAQQRQAIAAAAAAAEAQKBDAgAARAAAAA=</HashCode>
+      <FileName>Assets\Scripts\WFC\WFCManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="noiseGen" />
+      <Field Name="grid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PerlinNoise">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAEACAAA=</HashCode>
+      <FileName>Assets\Scripts\WFC\PerlinNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainManager">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAKAAQASAQAAAAAAAAQAAACQBAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\WFC\MainManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wfc" />
+      <Field Name="noise" />
+      <Field Name="deco" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DecorationPlacer">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAACAAAAEgAAAEAAAAAAAAQAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Decorations\DecorationPlacer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="decorationGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Decoration">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAgAAAAACAAAAAAAAwIAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Decorations\Decoration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAAAAAAgAECAACAAAAAAAAgAAAgiACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Tiles\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

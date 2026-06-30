@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de3063ae67eda044a08ffbed7b5e2a7, type: 3}
+  m_Name: SnowBump
+  m_EditorClassIdentifier: 
+  decID: SUMP
+  weight: 3
+  minTemp: 0.15
+  maxTemp: 0.37
+  decoration: {fileID: 8747640610384946077, guid: 0eb3a80e4490f6c41811d463f89f87a5, type: 3}
+  compatibleTiles:
+  - {fileID: 11400000, guid: edcbd7cc54aa9264e9bf48be8a89af9f, type: 2}
+  - {fileID: 11400000, guid: fcf8b0bc4e162314db4efc1bd66b63c2, type: 2}
+  - {fileID: 11400000, guid: 919e76c9814ab7a478018b4891a25efa, type: 2}
+  - {fileID: 11400000, guid: f851336fca7459648a741e23b8af34c3, type: 2}
+  - {fileID: 11400000, guid: 842e09fd84435ad47bcf07da62ae3abf, type: 2}
+  - {fileID: 11400000, guid: 0d0fe911d52cc9d4a91fda7a6e0b48a3, type: 2}
+  - {fileID: 11400000, guid: 077938cc6c35a0e4dab61e71a2ae3c56, type: 2}
+  - {fileID: 11400000, guid: 9be080a393beb4643b6654adec037523, type: 2}
+  - {fileID: 11400000, guid: a26b8d6d701bf89449622006dcd486c3, type: 2}
+  - {fileID: 11400000, guid: 68aa1ea0d363c054f950d92e43a6a973, type: 2}
+  - {fileID: 11400000, guid: a5078f0eccea1b14b8008e368cec1d5c, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: RiverUR
+  m_EditorClassIdentifier: 
+  weight: 1
+  minTemp: 0.4
+  maxTemp: 0.55
+  sprites:
+  - {fileID: 21300000, guid: a10463e3113eb7143933196c79bb1e8f, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000, guid: b79b11747ac530a4da9c0a0687b5bea8, type: 2}
+  - {fileID: 11400000, guid: aacd0e94e74806a4492c357108e06185, type: 2}
+  - {fileID: 11400000, guid: c5efbe43bcf25f349a68e36da90e8a89, type: 2}
+  - {fileID: 11400000, guid: c864746e14958a7428d821b106c1fadd, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000, guid: c24f042c378f7e14980d69e28b6d37b9, type: 2}
+  - {fileID: 11400000, guid: c79b206fc35ccf141ab32dfa6fc32844, type: 2}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000, guid: c24f042c378f7e14980d69e28b6d37b9, type: 2}
+  - {fileID: 11400000, guid: c79b206fc35ccf141ab32dfa6fc32844, type: 2}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000, guid: d93801498f0c1c64f90988c66bcb4c7e, type: 2}
+  - {fileID: 11400000, guid: aacd0e94e74806a4492c357108e06185, type: 2}
+  - {fileID: 11400000, guid: 4942fc6001ca90c47aac6b781b61a824, type: 2}
+  - {fileID: 11400000, guid: c864746e14958a7428d821b106c1fadd, type: 2}

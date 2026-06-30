@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: GrassSnow L
+  m_EditorClassIdentifier: 
+  tID: TS
+  weight: 10
+  minTemp: 0.33
+  maxTemp: 0.44
+  sprites:
+  - {fileID: -1336778347, guid: 7d974c7ad1b572b49b3d6b8bb8f6b801, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 68aa1ea0d363c054f950d92e43a6a973, type: 2}
+  - {fileID: 11400000, guid: f4eb1dfc2555e8349b668d08b30850fa, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 9be080a393beb4643b6654adec037523, type: 2}
+  - {fileID: 11400000, guid: e470b118d62c53c4badb0c5a176378f1, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000, guid: 919e76c9814ab7a478018b4891a25efa, type: 2}
+  - {fileID: 11400000, guid: ea5b0d92854a5564596f64fa1af54f06, type: 2}
+  - {fileID: 11400000, guid: fb82a0226de22ba48a63bee3cfe4a0cb, type: 2}
+  - {fileID: 11400000, guid: 0d0fe911d52cc9d4a91fda7a6e0b48a3, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000, guid: fcf8b0bc4e162314db4efc1bd66b63c2, type: 2}
+  - {fileID: 11400000, guid: edcbd7cc54aa9264e9bf48be8a89af9f, type: 2}
+  - {fileID: 11400000, guid: 154643ae8d714e84382d9d061222b6bb, type: 2}
+  - {fileID: 11400000, guid: 094e44d68a7f6e94fae14fc23e61beee, type: 2}
+  - {fileID: 11400000, guid: 460af907c5d4d3142bad2735a4a4f8e8, type: 2}
+  - {fileID: 11400000, guid: a5078f0eccea1b14b8008e368cec1d5c, type: 2}
+  - {fileID: 11400000, guid: a26b8d6d701bf89449622006dcd486c3, type: 2}
+  - {fileID: 11400000, guid: 0d0fe911d52cc9d4a91fda7a6e0b48a3, type: 2}

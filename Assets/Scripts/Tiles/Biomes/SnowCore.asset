@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: SnowCore
+  m_EditorClassIdentifier: 
+  weight: 8
+  minTemp: 0
+  maxTemp: 0.3
+  sprites:
+  - {fileID: 21300000, guid: 3c1f9cd65abbcd04aa15c510afe83cd8, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: c16dde044cf07d24ca00513fd4e4f2c7, type: 2}

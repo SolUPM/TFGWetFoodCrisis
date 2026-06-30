@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f233a90ff1ac6d1408b972307316b927, type: 3}
+  m_Name: GrassDesert TDL
+  m_EditorClassIdentifier: 
+  tID: D
+  weight: 5
+  minTemp: 0.64
+  maxTemp: 0.73
+  sprites:
+  - {fileID: 687379263, guid: 7d974c7ad1b572b49b3d6b8bb8f6b801, type: 3}
+  compatibleTilesUp:
+  - {fileID: 11400000, guid: 5aeffe3dbfd1c044d9e42baa6d4360aa, type: 2}
+  - {fileID: 11400000, guid: 1b7f9cf0c8a8dcc4cad3412a918bd843, type: 2}
+  - {fileID: 11400000, guid: 30bfb03cd333b2a4baf9d1aed6335f92, type: 2}
+  compatibleTilesDown:
+  - {fileID: 11400000, guid: 6c0268c012a2a8d449119467aee62206, type: 2}
+  - {fileID: 11400000, guid: e12883ea9bd24504e83c55e9ec837c24, type: 2}
+  - {fileID: 11400000, guid: dfbc81314c18f244aaab3385f57d2998, type: 2}
+  - {fileID: 11400000, guid: 503c8a626f2c93143b75cc4285703c26, type: 2}
+  - {fileID: 11400000, guid: a46911a890f47ba468733b61b52da87a, type: 2}
+  - {fileID: 11400000, guid: 3d560b70bbf1c044bbbe288161443502, type: 2}
+  - {fileID: 11400000, guid: 1b47220c4ed44d54599fff65e1c2ed35, type: 2}
+  - {fileID: 11400000, guid: 30bfb03cd333b2a4baf9d1aed6335f92, type: 2}
+  - {fileID: 11400000, guid: 1ad4bf04b6d0da643afa6f30cafc1b21, type: 2}
+  - {fileID: 11400000, guid: 614ae8bb5330fd7418523b3ab690bff4, type: 2}
+  compatibleTilesLeft:
+  - {fileID: 11400000, guid: 8217a8c2b93f8544fb6819700f73bca9, type: 2}
+  - {fileID: 11400000, guid: 6c0268c012a2a8d449119467aee62206, type: 2}
+  - {fileID: 11400000, guid: 8bc771a336367f441a1fb2d4bbe5e04d, type: 2}
+  - {fileID: 11400000, guid: dfbc81314c18f244aaab3385f57d2998, type: 2}
+  - {fileID: 11400000, guid: a46911a890f47ba468733b61b52da87a, type: 2}
+  - {fileID: 11400000, guid: 1b47220c4ed44d54599fff65e1c2ed35, type: 2}
+  - {fileID: 11400000, guid: 3f7a9602abe61ae44a421991837dea33, type: 2}
+  - {fileID: 11400000, guid: 1ad4bf04b6d0da643afa6f30cafc1b21, type: 2}
+  - {fileID: 11400000, guid: 39c8e19eddd5bc941a5d5a251ca7744f, type: 2}
+  - {fileID: 11400000, guid: 1ad4bf04b6d0da643afa6f30cafc1b21, type: 2}
+  compatibleTilesRight:
+  - {fileID: 11400000, guid: d354e1570b681ee4d9dc353020fd7b2e, type: 2}
+  - {fileID: 11400000, guid: 5aeffe3dbfd1c044d9e42baa6d4360aa, type: 2}
+  - {fileID: 11400000, guid: 39c8e19eddd5bc941a5d5a251ca7744f, type: 2}
